@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Companianmatch</title>
+  <link rel="shortcut icon" href="./assets/images/icon_form.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <header>
+    <div class="formContainer">
+      <div class="rigisterationForm">
+        <!-- <h3>Companion Match</h3> -->
+        <figure class="formImage">
+          <img src="./assets/images/DOB_Companianmatch.png" alt="">
+        </figure>
+        <div class="infoForm">
+          <form action="#" method="POST">
+            <div class="formGroup">
+              <label for="dob">Date Of Birth</label>
+              <input type="date" id="dob" name="dob" class="dob" placeholder="DD/MM/YYYY" required>
+              <label for="dobTips" class="dobTool">Your date of birth helps us find the perfect match</label>
+            </div>
+            <div class="formGroup">
+              <label for="religion">Religion</label>
+              <select name="religion" id="religion">
+                <option value="select">Select</option>
+                <option value="hindu">Hindu</option>
+                <option value="christian">Christian</option>
+                <option value="muslim">Muslim</option>
+              </select>
+            </div>
+            <div class="formGroup">
+              <label for="motherTongue">Mother Tongue</label>
+              <select name="motherTongue" id="motherTongue">
+                <option value="tamil">Tamil</option>
+                <option value="telungu">Telungu</option>
+                <option value="kannadam">kannadam</option>
+              </select>
+            </div>
+            <div class="formGroup">
+              <label for="emailId">Email ID</label>
+              <input type="email" name="emailId">
+            </div>
+            <div class="formGroup">
+              <label for="passWord">PassWord</label>
+              <input type="password" name="passWord">
+            </div>
+            <!-- <div class="formGroup"> -->
+            <button class="continueBtn">Continue</button>
+            <!-- </div> -->
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- <main></main> -->
+  <!-- <footer></footer> -->
+</body>
+
+</html>
